@@ -1,0 +1,53 @@
+$primaryColor: #27aae1;
+$secondBg: #dde3e8;
+
+body {
+  color: #333333;
+}
+
+.App {
+  min-height: 100vh;
+  min-width: 1400px !important;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333333;
+}
+
+.App.primary {
+  background-color: $primaryColor;
+  // background-color: #6ccbf3;
+}
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: none;
+}
+.App .login-form {
+  // max-width: 300px;
+}
+.App .login-form-forgot {
+  float: right;
+}
+.App .login-form-button {
+  width: 100%;
+}
+
+.wp-bottom-login{
+  display: flex;
+  align-items: center;
+}
+
+.ant-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.logo-login {
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // border-bottom: 1px solid rgb(214, 214, 214);
+}
