@@ -1,4 +1,5 @@
-# project init
+POPULIX FRONTEND REACTJS
+==============
 
 ## Installation project
 
@@ -11,5 +12,8 @@ run:
     yarn start
     
 build:
-    npm run build
+    yarn build
+    
+test:
+    yarn test
 ```
