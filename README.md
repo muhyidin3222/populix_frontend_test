@@ -2,15 +2,14 @@
 
 ## Installation project
 
-* npm install
-* yarn install
+* yarn 
 
 ## run and build project
 
 ```bash
-build web
-#staging
-npm run build:staging
-#production
-npm run build:production
+run:
+    yarn start
+    
+build:
+    npm run build
 ```
